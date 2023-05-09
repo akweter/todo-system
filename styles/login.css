@@ -1,0 +1,63 @@
+            
+            body {
+                height: 100%;
+                background-color: #969797;
+            }
+
+            .form-signin {
+                /* max-width: 35%; */
+                padding: 15px;
+                border-radius: 5% 10% 0 15%;
+            }
+
+            .form-signin .form-floating:focus-within {
+                z-index: 2;
+            }
+
+            .form-signin input[type="email"] {
+                margin-bottom: -1px;
+                border-bottom-right-radius: 0;
+                border-bottom-left-radius: 0;
+            }
+
+            .form-signin input[type="password"] {
+                margin-bottom: 10px;
+                border-top-left-radius: 0;
+                border-top-right-radius: 0;
+            }
+            
+            /* The message box is shown when the user clicks on the password field */
+            #message {
+            display:none;
+            background: #f1f1f1;
+            color: #000;
+            position: relative;
+            padding: 20px;
+            margin-top: 10px;
+            }
+
+            #message span { padding: 10px 35px; }
+
+            /* Add a green text color and a checkmark when the requirements are right */
+            .valid { color: green; }
+
+            .valid:before {
+                position: relative;
+                left: -15px;
+                content: "✔";
+            }
+
+            /* Add a red text color and an "x" when the requirements are wrong */
+            .invalid { color: red; }
+
+            .invalid:before {
+            position: relative;
+            left: -15px;
+            content: "✖";
+            }
+
+            .invalid_num{color:red;}
+
+            #length{
+                margin-left: 18%;
+            }
